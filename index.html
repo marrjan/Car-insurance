@@ -14,32 +14,64 @@
             <h1>محاسبه آنلاین قیمت بیمه خودرو</h1>
         </div>
           <form class="form-content" action="#">
-            <label>مدل خودرو :</label>
-            <select name="" id="">
-                <option value="1">
-                   پراید
-                </option>
-                <option value="2">
-                    اپتیما
-                </option>
-                <option value="3">
-                    پورش
-                </option>
-            </select>
-            <label>ساخت ساخت :</label>
-            <select name="" id="year">
-            </select>
+            <!-- مدل خودرو -->
+            <div class="section-one">
+                <label class="model">مدل خودرو :</label>
+              <div class="model-khodro">
+                      <select name="" id="option">
+                          <option value="1">
+                             پراید
+                          </option>
+                          <option value="2">
+                              اپتیما
+                          </option>
+                          <option value="3">
+                              پورش
+                          </option>
+                      </select>
+              </div>
+            </div>
 
-            <legend>نوع بیمه</legend>
-            <label for="">
-                <input type="radio" value="sade" name="bime" checked>
-                ساده - شخص ثالث
-            </label>
-            <label for="">
-                <input type="radio" value="kamel" name="bime">
-                کامل - شخص ثالث با بیمه بدنه
-            </label>
+
+            <!-- سال ساخت -->
+            <div class="section-two">
+                <label class="text-sal">ساخت ساخت :</label>
+                <div class="sale-sakht">
+                    <select name="" id="year">
+                    </select>
+                </div>
+            </div>
+            <!-- نوع بیمه -->
+            <div class="section-three">
+                <legend>نوع بیمه</legend>
+                <div class="noe-bimeh">
+                    <div>
+                        <label class="sadeh" for="">
+                            <input type="radio" value="sade" name="bime" checked>
+                            ساده - شخص ثالث
+                        </label>
+    
+                    </div>
+                    <div>
+                        <label class="sadeh" for="">
+                            <input type="radio" value="kamel" name="bime">
+                            کامل - شخص ثالث با بیمه بدنه
+                        </label>
+    
+                    </div>
+                </div>
+            </div>
+            <!--  -->
           </form>
+          <!-- loading gif -->
+          <div class="loading-img">
+             <img class="gif" src="gif/ZKZg.gif" alt="">
+          </div>
+
+          <!-- submit -->
+          <div class="submit">
+            <button type="submit"> محاسبه قیمت </button>
+          </div>
        </div>
     </div>
 

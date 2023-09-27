@@ -3,4 +3,115 @@ body {
     background: linear-gradient(to right, #7d4581,#d66a4f );
 } 
 
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    background-color: white;
+    margin-top: 100px;
+}
+
+.header {
+    background-color: rgb(71, 183, 218);
+    padding: 10px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+
+.header h1{
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+}
+
+.form-content {
+    margin-top: 10px;
+    padding: 10px;
+    width: 500px;
+    height: 400px;
+    
+}
+
+.model {
+    font-size: 19px;
+    font-weight: 800;
+}
+
+#option {
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.model-khodro{
+    padding: 5px;
+    margin-top: 5px;
+    
+}
+
+
+.text-sal{
+    display: inline-block;
+    font-size: 19px;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.sale-sakht{
+    padding: 5px;
+    margin-top: 5px;
+    
+}
+
+legend {
+    font-weight: 800;
+    font-size: 19px;
+    margin-top: 5px;
+}
+
+.sadeh {
+    display: inline-block;
+    margin-top: 15px;
+    font-weight: 800;
+    font-size: 19px;
+}
+
+.section-one {
+    padding: 15px 15px;
+    border-bottom: 1px solid lightgray;
+}
+
+.section-two {
+    padding: 15px 15px;
+    border-bottom: 1px solid lightgray;
+}
+
+.section-three {
+    padding: 15px 15px;
+    
+}
+
+.loading-img{
+    margin-right: 190px;
+    display: none;
+}
+
+.gif {
+    width: 100px;
+    height: 100px;
+}
+
+.submit button{
+    width: 80%;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    background-color: rgb(3, 136, 197);
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 19px;
+    font-weight: 800;
+}
 
