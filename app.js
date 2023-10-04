@@ -1,17 +1,4 @@
-// // show year 
-// const year = document.getElementById("year");
-
-
-// let date = 1403
-// function getYear (){
-//   for (let i = 0; i <= 20; i++) {
-//     date -= 1
-//     year.insertAdjacentHTML('beforeend' , `<option>${date}</option`)
-    
-//   }
-// }
-// getYear();
-
+// show year
 let currentYear = new Date().toLocaleDateString('fa-IR');
 
 let persianNumbers = [/۰/g, /۱/g, /۲/g, /۳/g, /۴/g, /۵/g, /۶/g, /۷/g, /۸/g, /۹/g],
