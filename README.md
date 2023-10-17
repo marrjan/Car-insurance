@@ -1,7 +1,4 @@
-## Hey dears, im very happy that you are with me in the description and information of this project, i hope you enjoy it.
-
- <center> <img style="width:150px " src ="https://img.freepik.com/premium-vector/happy-lady-2d-vector-isolated-illustration_151150-9439.jpg?w=2000">
-</center>
+## Hey dears, im very happy that you are with me in the description and information of this project, i hope you enjoy it 💌
 
 ## Car-insurance project is the best option for you to know your car incurance.
  About this sait :
@@ -18,3 +15,4 @@
 * choosing the desired insurance :
    - basic
    - complete
+   <img src="https://designtemlate.s3.us-west-1.wasabisys.com/Motor-Insurance-2d-Illustration-Illustration-700.webp">
